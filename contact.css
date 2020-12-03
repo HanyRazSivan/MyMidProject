@@ -4,3 +4,10 @@ ul {
     list-style-type: none;
 }
 ul li { display: inline;}
+.upper-nav {
+    background-color: dimgray;
+    height: 100px;
+    direction: rtl;
+    font-size: 20px;
+    margin-top: 0px;
+}
