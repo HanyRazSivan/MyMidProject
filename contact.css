@@ -4,6 +4,7 @@ ul {
     list-style-type: none;
 }
 ul li { display: inline;}
+
 .upper-nav {
     background-color: dimgray;
     height: 100px;
@@ -11,3 +12,47 @@ ul li { display: inline;}
     font-size: 20px;
     margin-top: 0px;
 }
+
+.main-div-wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+  
+.header {
+    background: gray;
+}
+  
+.footer {
+    background: gray;
+}
+  
+.create-contact-box {
+    text-align: right;
+    background: white;
+}
+  
+.details-box{
+    background: lightgray;
+}
+  
+.about-box {
+    background: hotpink;
+}
+  
+  @media all and (min-width: 600px) {
+    .aside { flex: 1 0 0; }
+  }
+  
+  @media all and (min-width: 800px) {
+    .main    { flex: 3 0px; }
+    .aside-1 { order: 1; } 
+    .main    { order: 2; }
+    .aside-2 { order: 3; }
+    .footer  { order: 4; }
+  }
+  
+  body {
+    padding: 2em; 
+  }
