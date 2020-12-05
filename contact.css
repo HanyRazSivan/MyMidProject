@@ -1,18 +1,25 @@
-ul {
+.menu ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
 }
-ul li { display: inline;}
+.menu ul li { 
+    display: inline;
+    font-family: Open Sans, sans-serif;
+    font-size: 20px;
+    font-weight:300;
+    text-decoration: none;
+}
+
+.menu a:link {
+    text-decoration: none;
+}
 
 .menu {
-    display: flex; 
-    background-color:purple ;
-    height: 100px;
+    background-color: whitesmoke ;
     direction: rtl;
-    text-align: right;
-    font-size: 20px;
-    margin-top: 0px;
+    margin: 50px auto;
+    height: 40px;
 }
 
 .under-menu { 
@@ -58,7 +65,7 @@ ul li { display: inline;}
     padding-top: 12px;
     border-top: 1px;
     border-left: 1px;
-    font-size: 12px;
+    font-size: 10px;
 }
   
 .create-contact-box-head {
@@ -69,10 +76,12 @@ ul li { display: inline;}
 .create-contact-box-head p1 {
     font-weight: normal;
     color: black;
+    margin: 0;
 }
 
 .create-contact-box-head p {
     color: black;
+    margin: 2px;
 }
 
 .create-contact-box-body {
