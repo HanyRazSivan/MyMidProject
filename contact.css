@@ -53,12 +53,12 @@ ul li { display: inline;}
     background: green;
     height: 294px;
     width: 347px;
-    margin-right: 50px;
-    margin-left: 100px;
+    margin: auto;
     padding-left: 18px;
     padding-top: 12px;
     border-top: 1px;
     border-left: 1px;
+    font-size: 12px;
 }
   
 .create-contact-box-head {
@@ -66,7 +66,6 @@ ul li { display: inline;}
     color: blue;
 }
 .create-contact-box-head p {
-    
     color: black;
 }
 
@@ -80,6 +79,29 @@ ul li { display: inline;}
 
 .create-contact-box-row {
     height: 30px;
+
+    background-color: coral;
+}
+
+.create-contact-box-row label {
+    text-align: right;
+    margin-right: 10px;
+    background-color: blueviolet;
+}
+
+.create-contact-box-row input {
+    box-sizing: border-box;
+    background-color: pink;
+    margin: 10px;
+    width: 150px;
+}
+
+.creat-contact-box-submit {
+    text-align: left;
+}
+
+.creat-contact-box-submit input[type=submit] {
+    background-color: blue;
 }
 
 .details-box{
