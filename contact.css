@@ -103,10 +103,10 @@ ul li { display: inline;}
     width: 150px;
 }
   
-.create-contact-box-text { 
-    text-align: left;
-    margin-right: 100px;
-    color: red;
+.create-contact-box-text {
+    margin-right: 120px;
+    margin-top: 10px;
+    width: 150px;
 }
 
 .creat-contact-box-submit {
