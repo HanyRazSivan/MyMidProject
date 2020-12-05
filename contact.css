@@ -9,6 +9,7 @@ ul li { display: inline;}
     background-color: dimgray;
     height: 100px;
     direction: rtl;
+    text-align: right;
     font-size: 20px;
     margin-top: 0px;
 }
@@ -30,15 +31,21 @@ ul li { display: inline;}
   
 .create-contact-box {
     text-align: right;
-    background: white;
+    background: green;
+    height: 550px;
+    width: 300px;
 }
   
 .details-box{
     background: lightgray;
+    height: 200px;
+    width: 200px;
 }
   
 .about-box {
     background: red;
+    height: 200px;
+    width: 200px;
 }
   
 @media all and (min-width: 600px) {
@@ -46,13 +53,11 @@ ul li { display: inline;}
 }
 
 @media all and (min-width: 800px) {
-    .main    { flex: 3 0px; }
-    .aside-1 { order: 1; } 
-    .main    { order: 2; }
-    .aside-2 { order: 3; }
-    .footer  { order: 4; }
+    .create-contact-box { order: 1; } 
+    .details-box    { order: 2; }
+    .about-box { order: 3; }
 }
-  
-  body {
+
+body {
     padding: 2em; 
-  }
+}
