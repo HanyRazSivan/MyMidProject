@@ -55,6 +55,17 @@ ul li { display: inline;}
     font-weight: bold;
     color: blue;
 }
+.create-contact-box-head p {
+    color: black;
+}
+
+.create-contact-box2 {
+    margin-top: 10px;
+    margin-right: 30px;
+    text-align: right;
+    direction: rtl;
+    background-color: cornflowerblue;
+}
 
 .details-box{
     background: lightgray;
