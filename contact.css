@@ -51,6 +51,11 @@ ul li { display: inline;}
     border-left: 1px;
 }
   
+.create-contact-box-head {
+    font-weight: bold;
+    color: blue;
+}
+
 .details-box{
     background: lightgray;
     height: 65px;
