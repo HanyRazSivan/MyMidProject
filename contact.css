@@ -17,13 +17,14 @@ body {
         
 .menu li {
     float: right;
+    color: white;
+    padding: 10px 10px;
 }
 
 .menu li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 10px 10px;
     text-decoration: none;
     direction: rtl;
 }
