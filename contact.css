@@ -43,8 +43,8 @@ body {
     height: 70px;
     float: right;
     position: relative;
-    top: 0px;
-    right: 20px;
+    top: 10px;
+    right: 40px;
 }
 
 .navbar-serch-container {
@@ -85,16 +85,18 @@ body {
 }
 
 .header {
-    background: rgb(179, 168, 168);
+    background: gray;
 }
   
 .footer {
     background: gray;
+    position: relative;
+    bottom: 0;
 }
   
 .create-contact-box {
     text-align: right;
-    background: green;
+    background: whitesmoke;
     height: 294px;
     width: 347px;
     margin: auto;
@@ -127,12 +129,10 @@ body {
     margin-right: 15px;
     text-align: right;
     direction: rtl;
-    background-color: cornflowerblue;
 }
 
 .create-contact-box-row {
     height: 30px;
-    background-color: coral;
 }
 
 .create-contact-box-row label {
@@ -144,7 +144,6 @@ body {
 
 .create-contact-box-row input {
     box-sizing: border-box;
-    background-color: pink;
     margin: 10px;
     width: 150px;
 }
@@ -171,7 +170,6 @@ body {
 }
   
 .about-box {
-    background: red;
     height: 80px;
     width: 248px;
     margin-top: 80px;
