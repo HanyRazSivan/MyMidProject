@@ -1,25 +1,61 @@
-.menu ul {
-    padding: 0;
+body {
+    direction: rtl;
     margin: 0;
-    list-style-type: none;
+    border: 0; 
+} 
+
+.menu {
+    margin-right: 200px;
 }
-.menu ul li { 
-    display: inline;
-    font-family: Open Sans, sans-serif;
-    font-size: 20px;
-    font-weight:300;
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: black(211, 211, 211, 0.356);
+}
+        
+.menu li {
+    float: right;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
     text-decoration: none;
+    direction: rtl;
 }
 
 .menu a:link {
     text-decoration: none;
+
+}
+.menu li a:hover {
+    background-color: darkgrey;
 }
 
-.menu {
-    background-color: whitesmoke ;
-    direction: rtl;
-    margin: 50px auto;
-    height: 40px;
+.logo_paz {
+    margin-top: 30px;
+    width: 100px;
+    height: 70px;
+    float: right;
+    position: relative;
+    top: 0px;
+    right: 20px;
+}
+
+.navbar-serch-container {
+    direction: ltr;
+    text-align:left;
+    margin-top:2px;
+}
+
+.header-flex {
+ display: flex;
+    margin-top:0px;
+    margin-left:0px;
 }
 
 .under-menu { 
@@ -140,6 +176,3 @@
     margin-top: 80px;
 }
   
-body {
-    padding: 2em; 
-}
