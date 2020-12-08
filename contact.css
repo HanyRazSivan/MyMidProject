@@ -174,13 +174,25 @@ body {
 
 .details-box{
     background: whitesmoke;
-    height: 65px;
+    height: 80px;
     width: 248px;
     margin-top: 30px;
+    text-align: rtl;
+    font-size: 8px;
 }
+.kesher {
+    font-size: 10px;
+    color:blue
+}
+.address-li{ 
+    font-size: 10px;
+    margin-right: 0px;
+    list-style-type: none;
+    text-align: right;
 
+}
 .left-boxes-spacer {
-    height: 50px;
+    height: 30px;
     background-color: white;
 }
 
