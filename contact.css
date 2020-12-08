@@ -91,8 +91,7 @@ body {
 }
 
 .left-boxes {
-
-    background-color:lightslategrey;
+    background: whitesmoke;
 }
 
 .header {
@@ -174,15 +173,19 @@ body {
 }
 
 .details-box{
-    background: lightgray;
+    background: whitesmoke;
     height: 65px;
     width: 248px;
     margin-top: 30px;
 }
-  
+
+.left-boxes-spacer {
+    height: 50px;
+    background-color: white;
+}
+
 .about-box {
     height: 80px;
     width: 248px;
-    margin-top: 80px;
 }
   
