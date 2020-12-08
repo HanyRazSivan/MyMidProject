@@ -78,7 +78,6 @@ body {
     direction: rtl;
     font-weight: bold;
     text-align: center;
-    background-color: lightblue;
 }
 
 .main-div-boxes-container {
@@ -88,10 +87,6 @@ body {
 
 .middle-spacer {
     width: 100px;
-}
-
-.left-boxes {
-    background: whitesmoke;
 }
 
 .header {
@@ -115,6 +110,8 @@ body {
     border-top: 1px;
     border-left: 1px;
     font-size: 10px;
+    border: 2px solid lightgrey;
+    border-top-right-radius: 15px;
 }
   
 .create-contact-box-head {
@@ -172,32 +169,58 @@ body {
     background-color: blue;
 }
 
+.left-boxes {
+    text-align: rtl;
+    font-size: 8px;
+    text-align: right;
+    font-weight: normal;
+}
+
 .details-box{
     background: whitesmoke;
     height: 80px;
     width: 248px;
     margin-top: 30px;
-    text-align: rtl;
-    font-size: 8px;
+    border: 2px solid lightgrey;
+    border-top-right-radius: 15px;
 }
-.kesher {
-    font-size: 10px;
-    color:blue
-}
-.address-li{ 
-    font-size: 10px;
-    margin-right: 0px;
-    list-style-type: none;
-    text-align: right;
 
+.kesher {
+    color:blue;
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 10px;
+    padding-top: 8px;
+    margin: 0;
+    margin-right: 20px;
 }
+
+.details-box-h {
+    font-weight: bold;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.details-box-l {
+    font-weight: normal;
+    margin: 0;
+    margin-right: 20px;
+}
+
 .left-boxes-spacer {
     height: 30px;
     background-color: white;
 }
 
 .about-box {
+    background: whitesmoke;
     height: 80px;
     width: 248px;
+    border: 2px solid lightgrey;
+    border-top-right-radius: 15px;
 }
-  
+
+.about-box a {
+    margin: 0;
+    margin-right: 20px;
+}
