@@ -61,6 +61,7 @@ body {
 
 .under-menu { 
     margin: 0;
+    margin-right: 200px;
     padding-top: 0px;
     height: 40px;
     text-align: right;
@@ -78,6 +79,15 @@ body {
     font-weight: bold;
     text-align: center;
     background-color: lightblue;
+}
+
+.main-div-boxes-container {
+    display: flex; 
+    margin-right: 200px;
+}
+
+.middle-spacer {
+    width: 100px;
 }
 
 .left-boxes {
