@@ -5,6 +5,7 @@ body {
 } 
 
 .menu {
+    display: flex;
     margin-right: 200px;
 }
 
@@ -14,8 +15,21 @@ body {
     overflow: hidden;
     background-color: black(211, 211, 211, 0.356);
 }
-        
+ 
+.menu ul ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: black(211, 211, 211, 0.356);
+}
+
 .menu li {
+    float: right;
+    color: white;
+    padding: 10px 10px;
+}
+
+.menu li li{
     float: right;
     color: white;
     padding: 10px 10px;
@@ -31,10 +45,23 @@ body {
 
 .menu a:link {
     text-decoration: none;
-
 }
+
 .menu li a:hover {
     background-color: darkgrey;
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+.menu ul li ul  {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    display: none;
+    position: absolute;
+    top: 50px;
 }
 
 .logo_paz {
@@ -45,6 +72,14 @@ body {
     position: relative;
     top: 10px;
     right: 40px;
+}
+
+.menu_home_img {
+    margin-top: 30px;
+    float: right;
+    position: relative;
+    top: 38px;
+    right: 60px;
 }
 
 .navbar-serch-container {
@@ -82,11 +117,11 @@ body {
 }
 
 .under-menu-line {
-    width: 120px;
     height: 0px;
     border: 0.5px solid lightgrey;
-    width: 450px;
+    width: 400px;
 }
+
 .main-div-wrapper {
     display: flex;  
     direction: rtl;
@@ -205,7 +240,6 @@ body {
 .kesher {
     color:blue;
     font-weight: bold;
-    margin-right: 20px;
     font-size: 10px;
     padding-top: 8px;
     margin: 0;
