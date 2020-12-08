@@ -54,33 +54,34 @@ body {
 }
 
 .header-flex {
- display: flex;
-    margin-top:0px;
+    display: flex;
+    margin-top: 0px;
     margin-left:0px;
 }
 
 .under-menu { 
-    padding-top: 10px;
-    height: 50px;
+    margin: 0;
+    padding-top: 0px;
+    height: 40px;
     text-align: right;
-    background-color: wheat
+    background-color: white;
+    font-size: 12px;
+}
 
+.under-menu p { 
+    font-weight: bold;
 }
 
 .main-div-wrapper {
     display: flex;  
-    flex-flow: row wrap;
+    direction: rtl;
     font-weight: bold;
     text-align: center;
     background-color: lightblue;
 }
- 
-.spacer-left-mid {
-    width: 50px;
-}
 
 .left-boxes {
-    margin-left: 80px;
+
     background-color:lightslategrey;
 }
 
