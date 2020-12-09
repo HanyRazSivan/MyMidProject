@@ -1,0 +1,176 @@
+body {
+    direction: rtl;
+    margin: 0;
+    border: 0; 
+} 
+
+.menu {
+    display: flex;
+    margin-right: 200px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: black(211, 211, 211, 0.356);
+}
+ 
+.menu ul ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: black(211, 211, 211, 0.356);
+}
+
+.menu li {
+    float: right;
+    color: white;
+    padding: 10px 10px;
+}
+
+.menu li li{
+    float: right;
+    color: white;
+    padding: 10px 10px;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    direction: rtl;
+}
+
+.menu a:link {
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: darkgrey;
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+.menu ul li ul  {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    display: none;
+    position: absolute;
+    top: 50px;
+}
+
+.logo_paz {
+    margin-top: 30px;
+    width: 100px;
+    height: 70px;
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 40px;
+}
+
+.menu_home_img {
+    margin-top: 30px;
+    float: right;
+    position: relative;
+    top: 38px;
+    right: 60px;
+}
+
+.navbar-serch-container {
+    direction: ltr;
+    text-align:left;
+    margin-top:2px;
+}
+
+.header-flex {
+    display: flex;
+    margin-top: 0px;
+    margin-left:0px;
+}
+
+.under-menu { 
+    margin: 0;
+    margin-right: 200px;
+    padding-top: 0px;
+    height: 40px;
+    text-align: right;
+    background-color: white;
+    font-size: 12px;
+}
+
+.under-menu p { 
+    padding-top: 10px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.under-menu p1 { 
+    font-weight: normal;
+    font-size: 8px;
+    margin: 0;
+}
+
+.under-menu-line {
+    height: 0px;
+    border: 0.5px solid lightgrey;
+    width: 400px;
+}
+
+.main-div-wrapper {
+    display: flex;
+    flex-flow: wrap;
+    direction: rtl;
+    text-align: center;
+}
+
+.box1 {
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 400px;
+}
+
+.box2 {
+    right: 300px;
+    top: 0;
+    width: 300px;
+    height: 400px;
+}
+
+.box3 {
+    width: 300px;
+    height: 400px;
+    right: 600px;
+    top: 0;
+}
+
+.group1 {
+    display: flex;
+    flex-flow: wrap;
+    width: 1010px;
+    height: 400px;
+}
+
+.group2 {
+    display: flex;
+    flex-flow: wrap;
+    width: 1010px;
+}
+
+.header {
+    background: gray;
+}
+  
+.footer {
+    background: gray;
+    position: relative;
+    bottom: 0;
+}
+  
+
