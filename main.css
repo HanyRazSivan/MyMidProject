@@ -130,15 +130,11 @@ body {
 }
 
 .box1 {
-    top: 0;
-    right: 0;
     width: 300px;
     height: 400px;
 }
 
 .box2 {
-    right: 300px;
-    top: 0;
     width: 300px;
     height: 400px;
 }
@@ -147,7 +143,22 @@ body {
     width: 300px;
     height: 400px;
     right: 600px;
-    top: 0;
+}
+
+.box4 {
+    width: 300px;
+    height: 400px;
+}
+
+.box5 {
+    width: 300px;
+    height: 400px;
+}
+
+.box6 {
+    width: 300px;
+    height: 400px;
+    right: 600px;
 }
 
 .group1 {
@@ -155,12 +166,14 @@ body {
     flex-flow: wrap;
     width: 1010px;
     height: 400px;
+    margin-right: 100px;
 }
 
 .group2 {
     display: flex;
     flex-flow: wrap;
     width: 1010px;
+    margin-right: 100px;
 }
 
 .header {
