@@ -148,7 +148,7 @@ body {
 .box-border-lower-part {
     background-color: lightgrey;
     height: 200px;
-    border: 2px solid gray;
+    border: 1px solid gray;
     border-top-right-radius: 15px;
 }
 
@@ -166,6 +166,9 @@ body {
     margin-right: 9px;
 }
 
+.lower-pic {
+    margin-top: 20px;
+}
 .group1 {
     display: flex;
     flex-flow: wrap;
